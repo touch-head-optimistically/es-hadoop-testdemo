@@ -13,7 +13,7 @@ import org.elasticsearch.spark._
   */
 object testzz {
 
-  val sc = new SparkContext(new SparkConf().setAppName("Demo4").set("es.nodes","127.0.0.1").set("es.port","17100"))
+  val sc = new SparkContext(new SparkConf().setAppName("Demo4").set("es.nodes","127.0.0.1").set("es.port","9100"))
 
   //创建sqlContext
   val sqlContext = new SQLContext(sc)
